@@ -1,7 +1,7 @@
-    import java.util.Scanner;
-    class Permutation
+        import java.util.Scanner;
+        class Permutation
 	{
-    public static void main(String[] args) 
+        public static void main(String[] args) 
 	{
         Scanner input = new Scanner(System.in);
 	int n,r,x,j=1,k=1,i;
@@ -20,7 +20,7 @@
 	x = j / k;
 	System.out.println(" n!/(n-r)!  is   " + x);
         }
-    else
-    System.out.println("enter proper values");
-       }
-       }
+        else
+        System.out.println("enter proper values");
+        }
+        }

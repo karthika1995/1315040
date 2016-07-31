@@ -8,12 +8,7 @@ public static void main(String[] arg)
 	System.out.print(" Enter n and i value ");
 	n=input.nextInt();
 	i=input.nextInt();
-	if(n>0 && i>=0)
-	{
 	x=(int)Math.pow(n,i);
 	System.out.print(" + n + "  power  "  + i + "  is  " + x");
-	}
-	else
-	System.out.print(" enter proper value");
 }
 }

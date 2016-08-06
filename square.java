@@ -8,7 +8,7 @@
         System.out.print("Enter the number");
         n = in.nextInt();
         x = n%10;
-        while(n>0)
+        while(x>0)
         {
             calc(n%10,x);
             n = n/10;

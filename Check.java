@@ -12,7 +12,9 @@ class Check
 	if((n%2) == 0)
 	System.out.println(" The given no. is even");
 	else
-	System.out.println("The given no. is odd");
+	System.out.println("The given no. is odd");	
 	}
+	else
+		System.out.println("Invalid no.");
 	}
 }
